@@ -10,7 +10,7 @@ namespace ConsoleApp_Aula5_Stacks
     {
         public static void Convert(int number)
         {
-            Stack<int> stack = new Stack<int>();
+            Stack<int> stack = new();
             while (number > 0)
             {
                 stack.Push(number % 2);
